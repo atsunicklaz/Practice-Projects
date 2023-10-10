@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 16px;
+}
+.main_container{
+    flex: 1;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    text-align: center;
+    color: blue;
+}
+input{
+    width: 100%;
+    outline: none;
+    border: 1px solid blue;
+    color: blue;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+h3{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 2.5rem;
+    padding: 3px 10px;
+}
+#result{
+    font-size: 1.5rem;
+}
+.calculate-age{
+    margin-top: 15px;
+    background-color:rgb(39, 138, 199);
+    color:white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.calculate-age:hover{
+    cursor: pointer;
+}
